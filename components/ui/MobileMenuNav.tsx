@@ -1,6 +1,6 @@
 'use client';
 
-import styles from '../../styles/mobileMenu.module.css';
+import styles from '@/styles/mobileMenu.module.css';
 import { useEffect } from 'react';
 import cn from 'classnames';
 import useMenuNav from '@/hooks/useMenuNav';

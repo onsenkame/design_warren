@@ -2,7 +2,7 @@ import AboutMe from '../content/AboutMe';
 import ContactMe from '../content/ContactMe';
 import CurrentFavTech from '../content/CurrentFavTech';
 import CurrentLearning from '../content/CurrentLearning';
-import CurrentTimeLineExp from '../content/CurrentTimeLineExp';
+import CodingTimelineExp from '../content/CodingTimelineExp';
 import FavProjects from '../content/FavProjects';
 import Hero from '../content/Hero';
 import ProcessWork from '../content/ProcessWork';
@@ -21,7 +21,7 @@ const HomeSection = () => {
 
         <AboutMe />
 
-        <CurrentTimeLineExp />
+        <CodingTimelineExp />
 
         <FavProjects />
 

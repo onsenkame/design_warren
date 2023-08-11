@@ -32,8 +32,7 @@ export interface TimelineEventProps {
     id?: string;
     title: string;
     des: string;
-    // category: string[];
-    category: string; // FIX THIS
+    category: string; 
     repo: string;
     link: string;
   }

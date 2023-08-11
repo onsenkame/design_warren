@@ -2,7 +2,7 @@
 
 import { Timeline, TimelineEvent } from './TimelineExp';
 
-const CurrentTimelineExp = () => {
+const CodingTimelineExp = () => {
   return (
     <Timeline>
 
@@ -26,27 +26,12 @@ const CurrentTimelineExp = () => {
 
       </TimelineEvent>
 
-      <TimelineEvent >
-
-<TimelineEvent.Title>Fullstack Academy | Apr. 2022 - Sept. 2022</TimelineEvent.Title>
-
-<TimelineEvent.Description>
-  Web designer and responsive web designer and frontend programmer on projects using Figma, HTML, CSS, SCSS, SASS, Bootstrap, JavaScript, jQuery implementing SCRUM, pixel perfect and clean code.
-</TimelineEvent.Description>
-
-</TimelineEvent>
-
       <TimelineEvent last>
 
-        <TimelineEvent.Title> <a href='https://siliconforensics.com/' target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>Silicon Forensics Inc.</a> | Webmaster/Graphics Designer | Apr. 2022 - Sept. 2022</TimelineEvent.Title>
+        <TimelineEvent.Title>Fullstack Academy | Apr. 2022 - Sept. 2022</TimelineEvent.Title>
 
         <TimelineEvent.Description>
-            - Regulated and managed access rights of website users as a server administrator bridging expectations of strict security and ease of access between company and clients in law enforcement and U.S. Government Agencies  
-            <br></br>
-            - Optimized client satisfaction and provide concise, timely customer service on orders ranging upwards of $50,000
-            <br></br>
-            - Designed and revised website banners, product fliers, product photos, and company logo
-
+          Web designer and responsive web designer and frontend programmer on projects using Figma, HTML, CSS, SCSS, SASS, Bootstrap, JavaScript, jQuery implementing SCRUM, pixel perfect and clean code.
         </TimelineEvent.Description>
 
       </TimelineEvent>
@@ -55,4 +40,4 @@ const CurrentTimelineExp = () => {
   )
 }
 
-export default CurrentTimelineExp;
+export default CodingTimelineExp;

@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import CardProject from './CardProject';
 import AnimationContainer from '../utils/AnimationContainer';
-import { CardProjectProps } from '@/types';
+import { CardProjectProps } from '../../types';
 import React from 'react';
 
 const allProjectsInfo = [
@@ -54,3 +54,5 @@ const SearchAllProjects = () => {
   )
 
 }
+
+export default SearchAllProjects;

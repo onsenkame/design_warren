@@ -1,10 +1,10 @@
 import ExternalLink from '../ui/ExternalLink';
 import AnimationContainer from '../utils/AnimationContainer';
 import ShowSkills from '../utils/ShowSkills';
-import { CardProjectProps } from '@/types';
+import { CardProjectProps } from '../../types';
 import React from 'react';
 
-const CardProject = ({ title, des, category, repo, link }: CardProjectProps) => {
+function CardProject({ title, des, category, repo, link }: CardProjectProps) {
   return (
     <AnimationContainer customClassName='w-full h-42 flex flex-col justify-center items-center rounded border border-gray-800 hover:border-gray-900 bg-[#080809] shadow-sm hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] p-4 transition-all ease'>
 
@@ -41,7 +41,7 @@ const CardProject = ({ title, des, category, repo, link }: CardProjectProps) => 
       </div>
 
     </AnimationContainer>
-  )
+  );
 }
 
 export default CardProject;

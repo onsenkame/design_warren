@@ -1,6 +1,6 @@
 import classNames from 'classnames';
 import AnimationContainer from '../utils/AnimationContainer';
-import { TimelineEventProps } from '@/types';
+import { TimelineEventProps } from '../../types';
 import React from 'react';
 
 export const Timeline = ({ children }: { children: React.ReactNode }) => {

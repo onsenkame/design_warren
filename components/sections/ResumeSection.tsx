@@ -1,4 +1,4 @@
-import CurrentTimelineExp from '../content/CurrentTimelineExp';
+import CurrentTimeLineExp from '../content/CurrentTimelineExp';
 import AnimationContainer from '../utils/AnimationContainer';
 import SectionContainer from '../utils/SectionContainer';
 import ShowSkills from '../utils/ShowSkills';
@@ -39,7 +39,7 @@ const skills = [
   }
 ];
 
-const AboutSection = () => {
+const ResumeSection = () => {
   return (
     <SectionContainer>
 
@@ -59,7 +59,7 @@ const AboutSection = () => {
 
         </AnimationContainer>
 
-        <CurrentTimelineExp />
+        <CurrentTimeLineExp />
 
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
@@ -117,4 +117,4 @@ const AboutSection = () => {
   )
 }
 
-export default AboutSection;
+export default ResumeSection;
