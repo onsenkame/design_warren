@@ -2,6 +2,10 @@
   "name": "design_warren",
   "version": "0.1.0",
   "private": true,
+  "description": "Hi! My name is Warren Au.",
+  "author": "Warren Au <aukwarren@gmail.com>",
+  "repository": "https://github.com/onsenkame/design_warren",
+  "inspiration": "Jean Rondón <jeanrdev@gmail.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,10 +16,44 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
+    "framer-motion": "^10.15.1",
     "next": "13.4.13",
     "postcss": "8.4.27",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "3.3.3"
+    "tailwindcss": "3.3.3",
+    "typescript": "^5.1.6",
+    "@emotion/react": "^11.10.5",
+    "@mantine/carousel": "^5.10.3",
+    "@mantine/core": "^5.10.3",
+    "@mantine/hooks": "^5.10.3",
+    "@next/font": "^13.4.13",
+    "@portabletext/react": "^2.0.0",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "@types/react-dom": "18.0.10",
+    "classnames": "^2.3.2",
+    "clsx": "^1.2.1",
+    "embla-carousel-react": "^7.0.9",
+    "sharp": "^0.31.3",
+    "styled-components": "^5.2.0",
+    "use-delayed-render": "^0.0.7"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.32.0",
+    "eslint-config-next": "^13.1.4",
+    "postcss": "^8.4.21",
+    "postcss-preset-env": "^7.8.3",
+    "prettier": "^2.8.3"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
   }
 }
