@@ -5,19 +5,19 @@ const myWorkProcess = [
   {
     id: '1',
     title: 'Meeting',
-    des: 'The first step is to hold a meeting to learn about your expectations, objectives and project requirements. It is important to discuss the scope of the project, the resources required and the project delivery schedule.',
+    des: 'The first step is to hold a meeting to discuss expectations, objectives and project requirements. We will determine the scope of the project, the resources required, and the project delivery schedule.',
     delay: 0.3
   },
   {
     id: '2',
     title: 'Prototyping',
-    des: 'With the action plan already defined, the web designs are made. Through Figma, mockups will be presented so that you have an image of what will be your website with the chosen colors and fonts, adapted for all devices and prioritizing usability.',
+    des: 'With the action plan solidified, we shift our focus to wireframes. Through Figma, we will go through mockups to get an image of what will be your website with chosen colors and fonts adapted for all devices while prioritizing usability.',
     delay: 0.4
   },
   {
     id: '3',
     title: 'SEO and content',
-    des: 'The next step is to implement an SEO and content strategy to help improve a website´s visibility in search engine results, which can generate more traffic and improve the quality of visitors.In addition, a well- structured content strategy can also contribute to better and longer - lasting results.',
+    des: 'The next step is to implement an SEO and content strategy to help improve a website´s visibility in search engine results, which can generate more traffic and improve the quality of visitors. A well- structured content strategy contributes to healthier and longer site growth.',
     delay: 0.5
   },
   {

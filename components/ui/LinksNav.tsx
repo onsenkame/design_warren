@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
-import { NavItemHeaderAnimation } from '@/types';
+import { NavItemHeaderAnimation } from '../../types';
 import React from 'react';
 
 export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
@@ -13,19 +13,25 @@ export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
   },
   '/about': {
     name: 'about',
-    x: 65,
+    x: 63,
     y: -3,
     w: '60px',
   },
   '/projects': {
     name: 'projects',
-    x: 130,
+    x: 125,
     y: -3,
     w: '75px',
   },
+  '/design': {
+    name: 'design',
+    x: 200,
+    y: -3,
+    w: '65px',
+  },
   '/blog': {
     name: 'blog',
-    x: 209,
+    x: 267,
     y: -3,
     w: '50px',
   }

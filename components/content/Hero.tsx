@@ -28,7 +28,7 @@ const Hero = () => {
           src='/mask.png'
           sizes='30vw'
           priority
-          className='rounded-[8px] filter grayscale hover:grayscale-0 transition ease'
+          className='rounded-[8px] filter grayscale hover:brightness-110 transition ease'
         />
       </AnimationContainer>
 

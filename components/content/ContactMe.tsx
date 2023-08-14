@@ -68,11 +68,10 @@ const ContactMe = () => {
                 <label className='sr-only' htmlFor='phone'>Phone</label>
                 <input
                   className='w-full rounded p-3 text-base outline-none border text-white bg-black border-gray-900 focus:border-gray-800 transition ease'
-                  placeholder='Phone'
+                  placeholder='Phone (optional)'
                   type='tel'
                   id='phone'
                   name='phone'
-                  required
                 />
               </div>
             </div>

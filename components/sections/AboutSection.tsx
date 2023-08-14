@@ -1,4 +1,4 @@
-import CurrentTimelineExp from '../content/CurrentTimelineExp';
+import CodingTimelineExp from '../content/CodingTimelineExp';
 import AnimationContainer from '../utils/AnimationContainer';
 import SectionContainer from '../utils/SectionContainer';
 import ShowSkills from '../utils/ShowSkills';
@@ -11,31 +11,31 @@ const skills = [
   },
   {
     title: 'Frameworks and libraries',
-    techs: ['jQuery', 'Angular', 'React', 'Next.js', 'Ionic', 'Electron.js']
+    techs: ['React', 'Next.js']
   },
   {
     title: 'JavaScript libraries',
-    techs: ['Redux', 'TanStack Query', 'Zustand', 'Formik', 'Jest', 'Storybook']
+    techs: ['Redux', 'Socket.IO', 'React-Redux']
   },
   {
     title: 'Preprocessors, css style, component and motion libraries',
-    techs: ['Pug', 'Scss', 'Sass', 'Less', 'Bootstrap', 'Tailwind', 'ChakraUI', 'MaterialUI', 'NextUI', 'Framer Motion']
+    techs: ['Bootstrap', 'Tailwind', 'MaterialUI', 'NextUI', 'Framer Motion']
   },
   {
     title: 'Backend stack',
-    techs: ['noSQL', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Postman', 'Firebase', 'Sanity CMS']
+    techs: ['noSQL', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Postman', 'Firebase', 'PostgreSQL']
   },
   {
     title: 'Softwares and tools',
-    techs: ['VS Code', 'Jira', 'Git', 'GitHub', 'Bitbucket', 'ESLint', 'Husky', 'Figma', 'Photoshop', 'WordPress', 'Elementor']
+    techs: ['VS Code', 'Git', 'GitHub', 'Bitbucket', 'ESLint', 'Figma', 'Photoshop', 'WordPress']
   },
   {
     title: 'Agile methodologies and coding principles',
-    techs: ['GitFlow', 'SCRUM', 'Clean Code', 'SOLID', 'Clean Architecture', 'Pixel perfect']
+    techs: ['GitFlow', 'SCRUM', 'Clean Code', 'SOLID', 'Clean Architecture', 'Kanban']
   },
   {
     title: 'Currently or interest in learning...',
-    techs: ['SQL', 'Nest', 'GraphQL', 'PostgreSQL', 'Socket.IO', 'Linux', 'AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Terraform', 'Jenkins', 'Blender']
+    techs: ['SQL', 'Scss', 'Sass', 'GraphQL', 'Linux', 'AWS', 'Docker', 'Kubernetes', 'Blender']
   }
 ];
 
@@ -59,7 +59,7 @@ const AboutSection = () => {
 
         </AnimationContainer>
 
-        <CurrentTimelineExp />
+        <CodingTimelineExp />
 
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
