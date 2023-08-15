@@ -50,11 +50,15 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I'm a passionate developer with +2 year of work experience in JavaScript/TypeScript, I'm a lover of page design or other things and whenever I can I try to learn new technologies since I discovered programming at 16 years old. I love what I do and I help others with what I can.
+            I'm a passionate developer with +1 year of work experience in JavaScript/TypeScript, I'm a lover of accessable page design which drives my desire to learn new technologies and develop fun an intuitive websites. I love what I do and I am always looking to help others with what I can.
           </p>
 
           <p className='text-base text-gray-400'>
-            I also use in web, mobile and desktop development Next.js, Angular, Ionic and Electron, to add I also have experience working in Backend with Node and in the UX design part with Figma always implementing good practices in prototyping and coding, clean architecture, SOLID principles, pixel perfect, GitFlow practices and agile methodologies for example such as the SCRUM framework.
+            For web, mobile and desktop frontend development is use React and Next.js. For backend technologies I am well aquanited with Node, PostgreSQL, and React-redux. Merging these technologies while implementing good practices in prototyping and coding, clean architecture, and agile methodologies is a cornerstone of my coding success.
+          </p>
+
+          <p className='text-base text-gray-400'>
+            Beyond coding I bring a host of other varied skills from my past experiences. As a biochemist, I have a strong understanding of the scientific process and how to apply it to problem solving. From my time teaching in Japan, I grew a passion for learning and teaching others, while reaching across cultural boundaries to understand and better success across diversity. These skills help me in jumping in and meshing with any team I have the pleasure of participating in.
           </p>
 
         </AnimationContainer>
@@ -66,11 +70,11 @@ const AboutSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Skills & Tools</h2>
 
           <p className='text-base text-gray-400'>
-            A look at all the programming languages, libraries, and tools I've worked with, I started programming about 4 years ago. I have tried a few programming languages and technology stack, both Backend and Frontend.
+            A look at all the programming languages, libraries, and tools I've worked with, I started programming about 3 years ago. As a trained full stack developer, I have tried a few programming languages and technology stacks, both backend and frontend.
           </p>
 
           <p className='text-base text-gray-400'>
-            Event though the scope of web development is wide, I was very interested and focused on Frontend development.
+            My focus is normally function first then form, but I've been challenging myself to more appealing and accessable designs.
           </p>
 
           <div className='flex flex-col items-start gap-3 mt-3'>
@@ -98,15 +102,15 @@ const AboutSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Interests & Goals</h2>
 
           <p className='text-base text-gray-400'>
-            I am interested in learning Backend with other language like Java, Go or with Python. I also want to know how to make a video game with Unity or other and I am very interested in being a content creator whether programming or something else.
+            I am interested in learning better fullstack web architecture and the needs of business level programming infrastructure. 
           </p>
 
           <p className='text-base text-gray-400'>
-            For now I'm learning how to make applications with real time communication such as a chat using Socket.IO, I'm also starting to learn the way to be Devops using Docker, Kubernetes, AWS or others.
+            Currently I'm learning how to make applications with better API integrations allowing for enhancing websites with generative AI technologies and accessablity add-ons.
           </p>
 
           <p className='text-base text-gray-400'>
-            I am also interested in learning other things besides programming such as 3D design with Blender and video editing with Davinci Resolve (these last two I would take as a hobby).
+            I am also interested in learning other things besides programming such as 3D design with Blender and animation.
           </p>
 
         </AnimationContainer>

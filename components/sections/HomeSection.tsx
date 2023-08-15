@@ -21,7 +21,7 @@ const HomeSection = () => {
 
         <AboutMe />
 
-        <CodingTimelineExp />
+        {/* <CodingTimelineExp /> */}
 
         <FavProjects />
 

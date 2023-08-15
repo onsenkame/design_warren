@@ -9,11 +9,51 @@ import React from 'react';
 const allProjectsInfo = [
   {
     id: '1',
-    title: 'example',
-    des: 'Project using the api.',
-    category: 'javascript',
-    repo: 'https://warrenau.dev',
-    link: 'https://warrenau.dev'
+    title: 'HuaXuan Art Gallery',
+    des: 'Portfolio and web store for an artist.',
+    category: 'javascript - react - nextjs - tailwindcss - vercel - mongodb',
+    repo: 'https://github.com/onsenkame/HuaXuanStore',
+    link: 'https://huaxuann.com/'
+  },
+  {
+    id: '2',
+    title: 'Personal Portfolio Website',
+    des: 'Personal web portfolio using Typescript.',
+    category: 'typescript - nextjs - tailwindcss - vercel',
+    repo: 'https://github.com/onsenkame/design_warren',
+    link: 'https://warrenau.dev/'
+  },
+  {
+    id: '3',
+    title: 'Scribble Me This game',
+    des: 'Machine learning enabled multiplayer drawing game.',
+    category: 'javascript - react - socket.io - ML5',
+    repo: 'https://github.com/Scribble-Me-This',
+    link: ''
+  },
+  {
+    id: '4',
+    title: 'The Lazy Redditor - Chrome Extension',
+    des: 'Machine learning enabled motion base Reddit accessability plugin.',
+    category: 'javascript - node.js - react-webcam - google handpose model',
+    repo: 'https://github.com/onsenkame/theLazyRedditor',
+    link: ''
+  },
+  {
+    id: '5',
+    title: 'Pokemon Trading Card Game Store',
+    des: 'Fully functional Pokemon TCG store with shopping cart and checkout.',
+    category: 'javascript - react - redux - postgresql - node.js - express - stripe - heroku',
+    repo: 'https://github.com/GS-Pokemon-TCG-Store',
+    link: ''
+  },
+  {
+    id: '6',
+    title: 'Water Tracker App',
+    des: 'Mobile-ready responsive water tracking app.',
+    category: 'javascript - react-native - redux - postgresql - node.js',
+    repo: 'https://github.com/mscherryxu/react-native-water-app',
+    link: ''
   },
 ];
 

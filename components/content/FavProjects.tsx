@@ -17,6 +17,8 @@ const useStyles = createStyles((theme: any) => ({
     padding: '10px',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
+    backgroundBlendMode: "multiply",
+    backgroundColor: "grey",
   },
 
   title: {

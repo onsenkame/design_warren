@@ -1,17 +1,17 @@
 'use client';
 
-import { Timeline, TimelineEvent } from './TimelineExp';
+import { TimelineCoding, TimelineEvent } from './TimelineExp';
 
 const CodingTimelineExp = () => {
   return (
-    <Timeline>
+    <TimelineCoding>
 
       <TimelineEvent active>
 
         <TimelineEvent.Title>Freelance | Sept. 2022 - Currently</TimelineEvent.Title>
 
         <TimelineEvent.Description>
-        Design and complete development of web pages/applications in a freelancer way applying agile methodologies, clean architecture, SOLID principles and pixel perfect in the projects I have done, I have developed almost all types of projects from Landing pages, Manageable stores with registration and login, Manageable blogs, dashboards, web pages with a variety of sections and more from prototyping, design using Excalidraw, Adobe Photoshop and Figma, also from the design to the programming and migration.
+        Work closely with clients to design and complete the development of web pages/applications while applying agile methodologies. In the projects completed, I have developed web apps and components from landing pages, manageable stores with registration and login, manageable blogs, administrative dashboards, web pages with a variety of sections and more. From prototyping to backend architecture, I communicate my designs using Excalidraw and Figma to best create my clients dream websites.
         </TimelineEvent.Description>
 
       </TimelineEvent>
@@ -21,7 +21,7 @@ const CodingTimelineExp = () => {
         <TimelineEvent.Title>Scribble Me This | Aug. 2022 - Sept. 2022</TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Design and complete development of web pages/applications in a freelancer way applying agile methodologies, clean architecture, SOLID principles and pixel perfect in the projects I have done, I have developed almost all types of projects from Landing pages, Manageable stores with registration and login, Manageable blogs, dashboards, web pages with a variety of sections and more from prototyping, design using Balsamiq Wireframes, Adobe Photoshop and Figma, also from the design to the programming and migration.
+          Built an online multiplayer game where players draw against each other to have a custom built and trained neural net using TensorFlow/ML5 using Google QuickDraw's dataset to guess their drawings. The host system is built using Socket.io and the site as a whole was built in JavaScript using React and Redux. I designed the Socket.io framework and game logic to handle player data across client devices and lobbies.
         </TimelineEvent.Description>
 
       </TimelineEvent>
@@ -31,12 +31,12 @@ const CodingTimelineExp = () => {
         <TimelineEvent.Title>Fullstack Academy | Apr. 2022 - Sept. 2022</TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Web designer and responsive web designer and frontend programmer on projects using Figma, HTML, CSS, SCSS, SASS, Bootstrap, JavaScript, jQuery implementing SCRUM, pixel perfect and clean code.
+          Learned and developed full-stack JavaScript web applications and methodologies in an 16 week full time accelerated coding bootcamp. Program frameworks formally covered key concepts of frontend design with CSS and HTML5 as well as applications of JavaScript and APIs. Primary back-end tech stacks involved React, React Router, React Hooks, Redux, and Express. These were tied in with SQL database knowledge for designing large industrial scale projects. All concepts were tested in cooperative developments utilizing Test-Driven-Development (TDD), prototyping, and agile development methodologies to simulate real-world development cycles.
         </TimelineEvent.Description>
 
       </TimelineEvent>
 
-    </Timeline>
+    </TimelineCoding>
   )
 }
 

@@ -3,6 +3,18 @@ import AnimationContainer from '../utils/AnimationContainer';
 import { TimelineEventProps } from '../../types';
 import React from 'react';
 
+export const TimelineCoding = ({ children }: { children: React.ReactNode }) => {
+  return (
+    <AnimationContainer customClassName='w-full mb-16'>
+
+      <h2 className='font-bold text-2xl tracking-tight mb-8 text-white text-center lg:text-start'>Coding Experience</h2>
+
+      {children}
+
+    </AnimationContainer>
+  )
+}
+
 export const Timeline = ({ children }: { children: React.ReactNode }) => {
   return (
     <AnimationContainer customClassName='w-full mb-16'>
