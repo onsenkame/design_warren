@@ -1,28 +1,28 @@
 import '../../styles/globals.css';
 import clsx from 'clsx';
-// import local from 'next/font/local';
+import local from 'next/font/local';
 import Header from '@/components/ui/Header';
 import Footer from '@/components/ui/Footer';
 import Head from '../head';
 import FlareCursor from '@/components/ui/FlareCursor';
 import React from 'react';
 
-// const graphik = local({
-//   src: [
-//     {
-//       path: '../../public/fonts/Graphik-Regular.ttf',
-//       weight: '400',
-//       style: 'normal',
-//     },
-//     {
-//       path: '../../public/fonts/Graphik-Medium.ttf',
-//       weight: '600',
-//       style: 'bold',
-//     },
-//   ],
-//   variable: '--font-graphik',
-//   display: 'swap',
-// });
+const graphik = local({
+  src: [
+    {
+      path: '../../public/fonts/Graphik-Regular.ttf',
+      weight: '400',
+      style: 'normal',
+    },
+    {
+      path: '../../public/fonts/Graphik-Medium.ttf',
+      weight: '600',
+      style: 'bold',
+    },
+  ],
+  variable: '--font-graphik',
+  display: 'swap',
+});
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
@@ -30,7 +30,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
       lang='en'
       className={clsx(
         'text-black bg-white dark:text-white dark:bg-[#111010]',
-        // graphik.variable
+        graphik.variable
       )}
     >
 

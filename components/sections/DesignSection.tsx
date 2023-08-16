@@ -1,6 +1,8 @@
 import AnimationContainer from '../utils/AnimationContainer';
 import SectionContainer from '../utils/SectionContainer';
+import DesignHero from '../content/DesignHero';
 import TitleSectionPageContainer from '../utils/TitleSectionPageContainer';
+import DesignMain from '../content/DesignMain';
 
 const myGithub = 'https://github.com/onsenkame';
 
@@ -21,6 +23,9 @@ const DesignSection = () => {
         </AnimationContainer>
 
       </div>
+
+      <DesignHero />
+      <DesignMain />
 
     </SectionContainer>
   )

@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { AnimationContainerProps } from '@/types';
+import { AnimationContainerProps } from '../../types';
 import React from 'react';
 
 const AnimationContainer = ({ children, customClassName, customDelay = 0.3 }: AnimationContainerProps) => {
