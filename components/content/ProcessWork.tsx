@@ -58,7 +58,7 @@ const ProcessWork = () => {
             >
 
               <h3 className='font-bold text-1xl tracking-tight text-white text-start'>
-                {title}
+                {id} - {title}
               </h3>
 
               <p className='mt-2 text-base text-gray-400'>
