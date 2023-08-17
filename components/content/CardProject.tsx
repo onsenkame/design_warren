@@ -20,7 +20,7 @@ function CardProject({ title, des, category, repo, link }: CardProjectProps) {
 
         <div className='w-full flex justify-between items-start flex-wrap flex-col lg:flex-row gap-5'>
 
-          <div className='flex justify-center items-start gap-3'>
+          <div className='flex justify-center items-start gap-3 w-[240px] md:w-auto'>
             <ShowSkills skills={category} />
           </div>
 

@@ -13,25 +13,25 @@ export const navItemsSelected: { [key: string]: NavItemHeaderAnimation } = {
   },
   '/about': {
     name: 'about',
-    x: 63,
+    x: 65,
     y: -3,
     w: '60px',
   },
   '/projects': {
     name: 'projects',
-    x: 125,
+    x: 132,
     y: -3,
     w: '75px',
   },
   '/design': {
     name: 'design',
-    x: 200,
+    x: 214,
     y: -3,
     w: '65px',
   },
   '/blog': {
     name: 'blog',
-    x: 267,
+    x: 285,
     y: -3,
     w: '50px',
   }
