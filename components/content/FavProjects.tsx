@@ -120,7 +120,7 @@ const FavProjects = () => {
       </h2>
 
       <p className='text-base text-gray-400 mb-10 text-start'>
-        These are my favorite projects and also the ones I consider the most complete and complex that I have done, if you want to see all my projects go to my <a href={myGithub} target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>GitHub</a>.
+        These are my favorite projects! They had fun complex problems and I&apos;m quite proud of them. If you want to see all my projects go to my <a href={myGithub} target='_blank' rel='noopener noreferrer' className='hover:text-white hover:underline transition-all ease'>GitHub</a>.
       </p>
 
       <Carousel
