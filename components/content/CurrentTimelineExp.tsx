@@ -30,7 +30,7 @@ const CurrentTimelineExp = () => {
         <TimelineEvent.Description>
           Built an online multiplayer game where players draw against each other
           to have a custom built and trained neural net using TensorFlow/ML5
-          using Google QuickDraw's dataset to guess their drawings. The host
+          using Google QuickDraw`&apos;`s dataset to guess their drawings. The host
           system is built using Socket.io and the site as a whole was built in
           JavaScript using React and Redux. I designed the Socket.io framework
           and game logic to handle player data across client devices and
