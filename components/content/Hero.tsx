@@ -14,7 +14,7 @@ const Hero = () => {
 
         <h2 className='flex items-center gap-2 text-1xl lg:text-1xl text-gray-200 mb-8 mx-auto lg:mx-0 text-orange-400'>
 
-          <span className='font-semibold '>Fullstack</span>Developer
+          <span className='font-semibold '>Fullstack Developer</span>
 
         </h2>
 

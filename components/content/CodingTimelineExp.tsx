@@ -21,7 +21,7 @@ const CodingTimelineExp = () => {
         <TimelineEvent.Title>Scribble Me This | Aug. 2022 - Sept. 2022</TimelineEvent.Title>
 
         <TimelineEvent.Description>
-          Built an online multiplayer game where players draw against each other to have a custom built and trained neural net using TensorFlow/ML5 using Google QuickDraw`&apos;`s dataset to guess their drawings. The host system is built using Socket.io and the site as a whole was built in JavaScript using React and Redux. I designed the Socket.io framework and game logic to handle player data across client devices and lobbies.
+          Built an online multiplayer game where players draw against each other to have a custom built and trained neural net using TensorFlow/ML5 using Google QuickDraw&apos;s dataset to guess their drawings. The host system is built using Socket.io and the site as a whole was built in JavaScript using React and Redux. I designed the Socket.io framework and game logic to handle player data across client devices and lobbies.
         </TimelineEvent.Description>
 
       </TimelineEvent>

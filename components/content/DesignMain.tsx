@@ -15,7 +15,7 @@ const DesignMain = () => {
             <span className="font-semibold ">Power and Speed at a Glance</span>
           </h3>
           <p className='w-full text-base text-gray-400 mx-auto'>
-          SiForce`&apos;`s branding mission was to balance brand recognition with an adaptable and simple design.
+          SiForce&apos;s branding mission was to balance brand recognition with an adaptable and simple design.
           <br></br>
         </p>
 
@@ -34,7 +34,7 @@ const DesignMain = () => {
           </h4>
 
           <p className='w-full text-base text-gray-400 mx-auto'>
-          The SiForce Lighting Logo`&apos;`s success has allowed the company to expand its use in other products.
+          The SiForce Lighting Logo&apos;s success has allowed the company to expand its use in other products.
           <br></br>
           Fitting and iconic, the logo has established itself in the digital forensics industry.
         </p>

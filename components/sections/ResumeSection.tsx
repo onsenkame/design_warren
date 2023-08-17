@@ -50,7 +50,7 @@ const ResumeSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I`&apos;`m a passionate developer with +1 year of work experience in JavaScript/TypeScript, I`&apos;`m a lover of accessable page design which drives my desire to learn new technologies and develop fun an intuitive websites. I love what I do and I am always looking to help others with what I can.
+            I&apos;m a passionate developer with +1 year of work experience in JavaScript/TypeScript, I&apos;m a lover of accessable page design which drives my desire to learn new technologies and develop fun an intuitive websites. I love what I do and I am always looking to help others with what I can.
           </p>
 
           <p className='text-base text-gray-400'>
@@ -70,11 +70,11 @@ const ResumeSection = () => {
           <h2 className='font-bold text-2xl md:text-2xl tracking-tight mb-2 text-white text-start'>Programming Skills & Tools</h2>
 
           <p className='text-base text-gray-400'>
-            A look at all the programming languages, libraries, and tools I`&apos;`ve worked with, I started programming about 3 years ago. As a trained full stack developer, I have tried a few programming languages and technology stacks, both backend and frontend.
+            A look at all the programming languages, libraries, and tools I&apos;ve worked with, I started programming about 3 years ago. As a trained full stack developer, I have tried a few programming languages and technology stacks, both backend and frontend.
           </p>
 
           <p className='text-base text-gray-400'>
-            My focus is normally function first then form, but I`&apos;`ve been challenging myself to more appealing and accessable designs.
+            My focus is normally function first then form, but I&apos;ve been challenging myself to more appealing and accessable designs.
           </p>
 
           <div className='flex flex-col items-start gap-3 mt-3'>
@@ -106,7 +106,7 @@ const ResumeSection = () => {
           </p>
 
           <p className='text-base text-gray-400'>
-            Currently I`&apos;`m learning how to make applications with better API integrations allowing for enhancing websites with generative AI technologies and accessablity add-ons.
+            Currently I&apos;m learning how to make applications with better API integrations allowing for enhancing websites with generative AI technologies and accessablity add-ons.
           </p>
 
           <p className='text-base text-gray-400'>
