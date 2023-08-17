@@ -36,7 +36,7 @@ const LinksMenuNav = () => {
         LinksMenu.map(({ name, path, delay }) => (
           <li
             key={name}
-            className='border-gray-700 text-gray-100 text-sm font-semibold'
+            className='border-gray-700 text-gray-100 text-lg font-semibold'
             style={{ transitionDelay: delay }}>
             <Link href={path} className='pb-4'>
               {name}
