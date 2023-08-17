@@ -17,14 +17,19 @@ const DesignHero = () => {
         />
       </AnimationContainer>
 
-      <AnimationContainer customClassName="flex flex-col items-center justify-between lg:items-start p-0 lg:pr-8">
-        <h1 className="font-bold text-3xl lg:text-5xl text-center lg:text-start tracking-tight mb-3 text-white mx-auto lg:mx-0 text-orange-400">
-          Warren Au
-        </h1>
-
-        <h2 className="flex items-center gap-2 text-1xl lg:text-1xl text-gray-200 mb-8 mx-auto lg:mx-0 text-orange-400">
-          <span className="font-semibold ">Fullstack</span>Developer
+      <AnimationContainer customClassName="lg:h-[260px] xl:h-[300px] flex flex-col justify-items-start items-center lg:items-start py-10 lg:pl-20 justify-items-start">
+        <h2 className="font-bold text-3xl lg:text-5xl text-center lg:text-start tracking-tight mb-3 text-white mx-auto lg:mx-0 text-orange-400">
+        <span>Silicon Forensics </span>
         </h2>
+
+        <h3 className="flex items-center gap-2 text-1xl lg:text-1xl text-gray-200 mb-8 mx-auto lg:mx-0 text-orange-400">
+        <span className="font-semibold ">Lightning-fast Solutions</span>
+        </h3>
+        <p className='w-full text-base text-gray-400 mx-auto'>
+          Silicon Forensics supports the computer forensics industry with efficent and powerful tools for investigators.
+          <br></br>
+          Their SiForce Line of products serves as the flagship brand for the company. Denoting their commitment to no-nonsense quality.
+        </p>
       </AnimationContainer>
     </div>
   );

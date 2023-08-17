@@ -14,10 +14,12 @@ const DesignSection = () => {
 
         <TitleSectionPageContainer title='Design' />
 
-        <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
+        <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8 text-center'>
 
           <p className='w-full text-base text-gray-400'>
             Choosing a logo and brand identity should be a point of pride and a compass for your organization.
+            <br></br>
+            Here are some of the logos and brand identities I've created for my clients.
           </p>
 
         </AnimationContainer>
