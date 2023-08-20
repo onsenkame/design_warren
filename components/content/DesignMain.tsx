@@ -53,7 +53,7 @@ const DesignMain = () => {
 
       <div className="w-full flex flex-col lg:flex-row py-10">
 
-        <AnimationContainer customClassName="flex w-[600px] sm:w-[600px] relative mb-6 lg:mb-0 justify-center items-center">
+        <AnimationContainer customClassName="flex md:w-[600px] relative mb-6 lg:mb-0 justify-center items-center">
           <Image
             alt="Silicon Forensics SiForce Logo"
             height={600}
@@ -64,7 +64,7 @@ const DesignMain = () => {
           />
         </AnimationContainer>
 
-        <AnimationContainer customClassName="flex w-[600px] sm:w-[600px] relative mb-6 lg:mb-0  justify-center items-center">
+        <AnimationContainer customClassName="flex md:w-[600px] relative mb-6 lg:mb-0  justify-center items-center">
           <Image
             alt="Silicon Forensics Siforce Text Logo"
             height={600}

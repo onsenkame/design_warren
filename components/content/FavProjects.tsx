@@ -85,7 +85,7 @@ const favProjects = [
       '/huaxuan.png',
     title: 'HuaXuan Web portfolio and store',
     category: 'React - Next.js - CSS - mongodb',
-    repo: 'https://github.com/onsenkame/huaxuanstore',
+    repo: 'https://github.com/onsenkame/huaxuan',
     link: 'https://huaxuann.com'
   },
   {

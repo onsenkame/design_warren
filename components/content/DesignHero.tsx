@@ -5,7 +5,7 @@ import React from 'react';
 const DesignHero = () => {
   return (
     <div className="w-full flex justify-between flex-col-reverse lg:flex-row items-center">
-      <AnimationContainer customClassName="w-[600px] sm:w-[600px] relative mb-6 lg:mb-0">
+      <AnimationContainer customClassName="w-[300px] md:w-[600px] relative mb-6 lg:mb-0">
         <Image
           alt="Silicon Forensics Branded Products"
           height={600}

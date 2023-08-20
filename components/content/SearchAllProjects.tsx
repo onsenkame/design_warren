@@ -12,7 +12,7 @@ const allProjectsInfo = [
     title: 'HuaXuan Art Gallery',
     des: 'Portfolio and web store for an artist.',
     category: 'javascript - react - nextjs - tailwindcss - vercel - mongodb',
-    repo: 'https://github.com/onsenkame/HuaXuanStore',
+    repo: '',
     link: 'https://huaxuann.com/'
   },
   {
@@ -29,7 +29,7 @@ const allProjectsInfo = [
     des: 'Machine learning enabled multiplayer drawing game.',
     category: 'javascript - react - socket.io - ML5',
     repo: 'https://github.com/Scribble-Me-This',
-    link: ''
+    link: 'https://www.youtube.com/watch?v=eNn01r9uogw'
   },
   {
     id: '4',
