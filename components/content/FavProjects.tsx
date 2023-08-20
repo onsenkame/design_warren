@@ -96,6 +96,14 @@ const favProjects = [
     repo: 'https://github.com/Scribble-Me-This/2022-Scribble-Me-This',
     link: 'https://www.youtube.com/watch?v=eNn01r9uogw'
   },
+  {
+    image:
+      '/wardev.PNG',
+    title: 'Portfolio site',
+    category: 'React - Javascript - Next.js - TailwindCSS',
+    repo: 'https://github.com/onsenkame/design_warren',
+    link: 'https://www.warrenau.dev'
+  },
 ];
 
 const myGithub = 'https://github.com/onsenkame';
@@ -126,10 +134,10 @@ const FavProjects = () => {
       <Carousel
         slideSize='50%'
         breakpoints={[{ maxWidth: 'xs', slideSize: '100%', slideGap: 1 }]}
-        slideGap='xs'
+        slideGap='sm'
         align='center'
-        slidesToScroll={mobile ? 1 : 2}
-        withControls={false}
+        slidesToScroll={mobile ? 1 : 1}
+        withControls={true}
         style={{ width: '100%', cursor: 'grab' }}
         loop
       >
