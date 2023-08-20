@@ -26,9 +26,9 @@ const DesignHero = () => {
         <span className="font-semibold ">Lightning-fast Solutions</span>
         </h3>
         <p className='w-full text-base text-gray-400 mx-auto'>
-          Silicon Forensics supports the computer forensics industry with efficent and powerful tools for investigators.
+          Silicon Forensics supports the computer forensics industry with efficient and powerful tools for investigators.
           <br></br>
-          Their SiForce Line of products serves as the flagship brand for the company. Denoting their commitment to no-nonsense quality.
+          Their SiForce Line of products serves as the flagship brand for the company, denoting their commitment to no-nonsense quality.
         </p>
       </AnimationContainer>
     </div>

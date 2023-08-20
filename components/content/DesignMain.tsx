@@ -26,7 +26,7 @@ const DesignMain = () => {
           <p className='w-full text-base text-gray-400 mx-auto'>
           The SiForce Lighting Logo must have good symmetry and visibility at different angles and sizes.
           <br></br>
-          It should be recognizable at a glance, and be able to be used in different contexts and in combination with the text logo.
+          It should be recognizable at a glance and able to be used in different contexts and in combination with the text logo.
         </p>
 
         <h4 className="flex items-center text-1xl lg:text-1xl pt-6 text-gray-200 mb-4 mx-auto lg:mx-0 text-orange-400">

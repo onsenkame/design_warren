@@ -50,11 +50,11 @@ const AboutSection = () => {
         <AnimationContainer customClassName='w-full flex flex-col gap-5 mb-8'>
 
           <p className='text-base text-gray-400'>
-            I&apos;m a passionate developer with +1 year of work experience in JavaScript/TypeScript, I&apos;m a lover of accessable page design which drives my desire to learn new technologies and develop fun an intuitive websites. I love what I do and I am always looking to help others with what I can.
+            I&apos;m a passionate developer with +1 year of work experience in JavaScript/TypeScript, I&apos;m a lover of accessible page design which drives my desire to learn new technologies and develop fun an intuitive websites. I love what I do and I am always looking to help others with what I can.
           </p>
 
           <p className='text-base text-gray-400'>
-            For web, mobile and desktop frontend development is use React and Next.js. For backend technologies I am well aquanited with Node, PostgreSQL, and React-redux. Merging these technologies while implementing good practices in prototyping and coding, clean architecture, and agile methodologies is a cornerstone of my coding success.
+            For web, mobile and desktop frontend development is use React and Next.js. For backend technologies I am well acquainted with Node, PostgreSQL, and React-redux. Merging these technologies while implementing good practices in prototyping and coding, clean architecture, and agile methodologies is a cornerstone of my coding success.
           </p>
 
           <p className='text-base text-gray-400'>
@@ -74,7 +74,7 @@ const AboutSection = () => {
           </p>
 
           <p className='text-base text-gray-400'>
-            My focus is normally function first then form, but I&apos;ve been challenging myself to more appealing and accessable designs.
+            My focus is normally function first then form, but I&apos;ve been challenging myself to more appealing and accessible designs.
           </p>
 
           <div className='flex flex-col items-start gap-3 mt-3'>
@@ -106,7 +106,7 @@ const AboutSection = () => {
           </p>
 
           <p className='text-base text-gray-400'>
-            Currently I&apos;m learning how to make applications with better API integrations allowing for enhancing websites with generative AI technologies and accessablity add-ons.
+            Currently I&apos;m learning how to make applications with better API integrations allowing for enhancing websites with generative AI technologies and accessibility add-ons.
           </p>
 
           <p className='text-base text-gray-400'>
