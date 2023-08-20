@@ -132,7 +132,7 @@ const FavProjects = () => {
       </p>
 
       <Carousel
-        slideSize='90%'
+        slideSize='50%'
         breakpoints={[{ maxWidth: 'xs', slideSize: '100%', slideGap: 1 }]}
         slideGap='xs'
         align='center'
