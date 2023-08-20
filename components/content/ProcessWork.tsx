@@ -11,7 +11,7 @@ const myWorkProcess = [
   {
     id: '2',
     title: 'Prototyping',
-    des: 'With the action plan solidified, we shift our focus to wireframes. Through Figma, we will go through mockups to get an image of what will be your website with chosen colors and fonts adapted for all devices while prioritizing usability.',
+    des: 'With the action plan solidified, we shift our focus to wireframes. Through Excalidraw, we will go through mockups to get an image of what your website will look like with chosen colors and fonts. We will also prepare styling adapted for all devices while prioritizing usability.',
     delay: 0.4
   },
   {
@@ -35,7 +35,7 @@ const myWorkProcess = [
   {
     id: '6',
     title: 'Migration',
-    des: 'You are done. Congratulations, you have a website created by me. You will also have the option to hire my web maintenance service, so that it is always updated and ready.',
+    des: 'You are done! Congratulations, you have a website created by me. You will also have the option to hire my web maintenance service, so that it is always updated and ready.',
     delay: 0.8
   },
 ];
