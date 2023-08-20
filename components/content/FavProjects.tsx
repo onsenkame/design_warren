@@ -132,11 +132,11 @@ const FavProjects = () => {
       </p>
 
       <Carousel
-        slideSize='50%'
+        slideSize='90%'
         breakpoints={[{ maxWidth: 'xs', slideSize: '100%', slideGap: 1 }]}
-        slideGap='sm'
+        slideGap='xs'
         align='center'
-        slidesToScroll={mobile ? 1 : 1}
+        slidesToScroll={mobile ? 1 : 2}
         withControls={true}
         style={{ width: '100%', cursor: 'grab' }}
         loop
