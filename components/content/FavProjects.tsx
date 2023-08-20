@@ -138,6 +138,7 @@ const FavProjects = () => {
         align='center'
         slidesToScroll={mobile ? 1 : 2}
         withControls={true}
+        draggable={false}
         style={{ width: '100%', cursor: 'grab' }}
         loop
       >
